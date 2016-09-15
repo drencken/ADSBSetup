@@ -6,7 +6,7 @@ apt-get install -y git
 apt-get install -y openvpn
 # Clone the script and execute it
 git clone https://github.com/jprochazka/adsb-receiver.git
-cd ~/adsb-receiver
+cd /home/pi/adsb-receiver
 chmod +x install.sh
 ./install.sh
 
